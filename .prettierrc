@@ -1,0 +1,10 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSameLine": true,
+  "bracketSpacing": false,
+  "arrowParens":"avoid",
+  "overrides": [{"files":["*.jsx", "*.js", "*.flow"], "options": {"parser": "flow"}}, {"files":["*.tsx", "*.ts"], "options": {"parser": "typescript"}}]
+}

@@ -1,0 +1,17 @@
+// Override default variables before the import
+$body-bg: #fff;
+$body-color: #000;
+html,
+body {
+  background-color: $body-bg;
+  background-image: url('../public/carbon_fibre.png');
+}
+.text-purple {
+  color: #6610f2;
+}
+.container,
+.container-md {
+  background-color: $body-bg;
+}
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
